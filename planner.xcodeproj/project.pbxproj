@@ -11,6 +11,12 @@
 		5ACE716B29F30A4E0081346F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE716A29F30A4E0081346F /* ContentView.swift */; };
 		5ACE716D29F30A4F0081346F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE716C29F30A4F0081346F /* Assets.xcassets */; };
 		5ACE717029F30A4F0081346F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE716F29F30A4F0081346F /* Preview Assets.xcassets */; };
+		5ACE718A29F30C8A0081346F /* IBMPlexMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE717C29F30C890081346F /* IBMPlexMono-Light.ttf */; };
+		5ACE718B29F30C8A0081346F /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE717D29F30C890081346F /* IBMPlexMono-SemiBold.ttf */; };
+		5ACE718C29F30C8A0081346F /* IBMPlexMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE717E29F30C890081346F /* IBMPlexMono-ExtraLight.ttf */; };
+		5ACE718D29F30C8A0081346F /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE717F29F30C8A0081346F /* IBMPlexMono-Regular.ttf */; };
+		5ACE718F29F30C8A0081346F /* IBMPlexMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE718129F30C8A0081346F /* IBMPlexMono-Bold.ttf */; };
+		5ACE719029F30C8A0081346F /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE718229F30C8A0081346F /* IBMPlexMono-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		5ACE716A29F30A4E0081346F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5ACE716C29F30A4F0081346F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ACE716F29F30A4F0081346F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5ACE717C29F30C890081346F /* IBMPlexMono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Light.ttf"; sourceTree = "<group>"; };
+		5ACE717D29F30C890081346F /* IBMPlexMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		5ACE717E29F30C890081346F /* IBMPlexMono-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5ACE717F29F30C8A0081346F /* IBMPlexMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Regular.ttf"; sourceTree = "<group>"; };
+		5ACE718129F30C8A0081346F /* IBMPlexMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Bold.ttf"; sourceTree = "<group>"; };
+		5ACE718229F30C8A0081346F /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; };
+		5ACE719529F30CAE0081346F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,7 @@
 		5ACE716729F30A4E0081346F /* planner */ = {
 			isa = PBXGroup;
 			children = (
+				5ACE719529F30CAE0081346F /* Info.plist */,
 				5ACE716829F30A4E0081346F /* Planner.swift */,
 				5ACE716A29F30A4E0081346F /* ContentView.swift */,
 				5ACE717629F30A750081346F /* Models */,
@@ -87,6 +101,12 @@
 		5ACE717829F30A950081346F /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				5ACE718129F30C8A0081346F /* IBMPlexMono-Bold.ttf */,
+				5ACE717E29F30C890081346F /* IBMPlexMono-ExtraLight.ttf */,
+				5ACE717C29F30C890081346F /* IBMPlexMono-Light.ttf */,
+				5ACE718229F30C8A0081346F /* IBMPlexMono-Medium.ttf */,
+				5ACE717F29F30C8A0081346F /* IBMPlexMono-Regular.ttf */,
+				5ACE717D29F30C890081346F /* IBMPlexMono-SemiBold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -150,6 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ACE717029F30A4F0081346F /* Preview Assets.xcassets in Resources */,
+				5ACE718D29F30C8A0081346F /* IBMPlexMono-Regular.ttf in Resources */,
+				5ACE718C29F30C8A0081346F /* IBMPlexMono-ExtraLight.ttf in Resources */,
+				5ACE718B29F30C8A0081346F /* IBMPlexMono-SemiBold.ttf in Resources */,
+				5ACE719029F30C8A0081346F /* IBMPlexMono-Medium.ttf in Resources */,
+				5ACE718A29F30C8A0081346F /* IBMPlexMono-Light.ttf in Resources */,
+				5ACE718F29F30C8A0081346F /* IBMPlexMono-Bold.ttf in Resources */,
 				5ACE716D29F30A4F0081346F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +320,7 @@
 				DEVELOPMENT_TEAM = 94P9U8H695;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = planner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -323,6 +350,7 @@
 				DEVELOPMENT_TEAM = 94P9U8H695;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = planner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
