@@ -17,6 +17,14 @@
 		5ACE718D29F30C8A0081346F /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE717F29F30C8A0081346F /* IBMPlexMono-Regular.ttf */; };
 		5ACE718F29F30C8A0081346F /* IBMPlexMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE718129F30C8A0081346F /* IBMPlexMono-Bold.ttf */; };
 		5ACE719029F30C8A0081346F /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE718229F30C8A0081346F /* IBMPlexMono-Medium.ttf */; };
+		5ACE719729F30E690081346F /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE719629F30E690081346F /* FontExtension.swift */; };
+		5ACE719929F3103B0081346F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE719829F3103B0081346F /* Task.swift */; };
+		5ACE719B29F312200081346F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE719A29F312200081346F /* Category.swift */; };
+		5ACE719D29F313910081346F /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE719C29F313910081346F /* AddTaskView.swift */; };
+		5ACE71A029F318780081346F /* ExtensionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE719F29F318780081346F /* ExtensionsView.swift */; };
+		5ACE71A229F319400081346F /* ExtensionsDateAndCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE71A129F319400081346F /* ExtensionsDateAndCalendar.swift */; };
+		5ACE71A429F31A600081346F /* WeekDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE71A329F31A600081346F /* WeekDay.swift */; };
+		5ACE71A629F31B990081346F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE71A529F31B990081346F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +40,14 @@
 		5ACE718129F30C8A0081346F /* IBMPlexMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Bold.ttf"; sourceTree = "<group>"; };
 		5ACE718229F30C8A0081346F /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; };
 		5ACE719529F30CAE0081346F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5ACE719629F30E690081346F /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		5ACE719829F3103B0081346F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		5ACE719A29F312200081346F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5ACE719C29F313910081346F /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		5ACE719F29F318780081346F /* ExtensionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsView.swift; sourceTree = "<group>"; };
+		5ACE71A129F319400081346F /* ExtensionsDateAndCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsDateAndCalendar.swift; sourceTree = "<group>"; };
+		5ACE71A329F31A600081346F /* WeekDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDay.swift; sourceTree = "<group>"; };
+		5ACE71A529F31B990081346F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +85,7 @@
 				5ACE716A29F30A4E0081346F /* ContentView.swift */,
 				5ACE717629F30A750081346F /* Models */,
 				5ACE717729F30A830081346F /* Views */,
+				5ACE719E29F318500081346F /* Helpers */,
 				5ACE717829F30A950081346F /* Fonts */,
 				5ACE716C29F30A4F0081346F /* Assets.xcassets */,
 				5ACE716E29F30A4F0081346F /* Preview Content */,
@@ -87,6 +104,10 @@
 		5ACE717629F30A750081346F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5ACE719629F30E690081346F /* FontExtension.swift */,
+				5ACE719829F3103B0081346F /* Task.swift */,
+				5ACE719A29F312200081346F /* Category.swift */,
+				5ACE71A329F31A600081346F /* WeekDay.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -94,6 +115,8 @@
 		5ACE717729F30A830081346F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5ACE719C29F313910081346F /* AddTaskView.swift */,
+				5ACE71A529F31B990081346F /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,13 +125,22 @@
 			isa = PBXGroup;
 			children = (
 				5ACE718129F30C8A0081346F /* IBMPlexMono-Bold.ttf */,
-				5ACE717E29F30C890081346F /* IBMPlexMono-ExtraLight.ttf */,
-				5ACE717C29F30C890081346F /* IBMPlexMono-Light.ttf */,
-				5ACE718229F30C8A0081346F /* IBMPlexMono-Medium.ttf */,
-				5ACE717F29F30C8A0081346F /* IBMPlexMono-Regular.ttf */,
 				5ACE717D29F30C890081346F /* IBMPlexMono-SemiBold.ttf */,
+				5ACE718229F30C8A0081346F /* IBMPlexMono-Medium.ttf */,
+				5ACE717C29F30C890081346F /* IBMPlexMono-Light.ttf */,
+				5ACE717E29F30C890081346F /* IBMPlexMono-ExtraLight.ttf */,
+				5ACE717F29F30C8A0081346F /* IBMPlexMono-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5ACE719E29F318500081346F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5ACE719F29F318780081346F /* ExtensionsView.swift */,
+				5ACE71A129F319400081346F /* ExtensionsDateAndCalendar.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +219,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ACE71A429F31A600081346F /* WeekDay.swift in Sources */,
+				5ACE719929F3103B0081346F /* Task.swift in Sources */,
+				5ACE719B29F312200081346F /* Category.swift in Sources */,
+				5ACE71A629F31B990081346F /* HomeView.swift in Sources */,
+				5ACE719729F30E690081346F /* FontExtension.swift in Sources */,
+				5ACE719D29F313910081346F /* AddTaskView.swift in Sources */,
 				5ACE716B29F30A4E0081346F /* ContentView.swift in Sources */,
+				5ACE71A229F319400081346F /* ExtensionsDateAndCalendar.swift in Sources */,
 				5ACE716929F30A4E0081346F /* Planner.swift in Sources */,
+				5ACE71A029F318780081346F /* ExtensionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
